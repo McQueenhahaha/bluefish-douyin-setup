@@ -1,0 +1,36 @@
+# 登录态、密钥与个人配置
+secrets/
+.env
+.env.*
+*.local.json
+
+# 日志、缓存与临时媒体
+logs/
+tmp/
+cache/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.wav
+*.mp3
+
+# 本机 DSH 数据、记忆和收件箱
+.dsh/
+workspace/
+backup/
+reports/
+
+# Node
+node_modules/
+
+# 常见敏感文件名
+*cookie*
+*token*
+*session*
+*credential*
+*secret*
+
